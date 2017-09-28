@@ -1,18 +1,18 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends Application
+class Force extends Application
 {
 
 	function __construct()
 	{
 		parent::__construct();
-    }
+    	}
     
 	public function index()
 	{
 
-        $this->show (4);
+        	$this->show (4);
         
 	}
 
