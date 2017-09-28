@@ -19,6 +19,4 @@ class Juliet extends CI_Controller
         echo json_encode($record);
     }
 
-
-
 }
